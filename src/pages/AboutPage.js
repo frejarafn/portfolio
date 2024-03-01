@@ -1,4 +1,5 @@
 import ImageSlider from "../components/ImageSlider";
+import Toolbox from "../components/Toolbox";
 
 export default function AboutPage() {
     return (
@@ -12,7 +13,7 @@ export default function AboutPage() {
                 </div>
                 <div>
                     <div className="slider">
-                        <ImageSlider imageUrl="/images/abouttop.png" timerDuration={1000} />
+                        <ImageSlider imageUrl="/images/Profil.jpg" timerDuration={1000} />
                     </div>
 
                 </div>
@@ -20,6 +21,16 @@ export default function AboutPage() {
 
 
             </div>
+            <section className="toolbox">
+                <h2>
+                    MY TOOLBOX
+                </h2>
+                <p>
+                    As a multimedia design graduate and web development student, I possess a wide range of skills.
+
+                </p>
+                <Toolbox></Toolbox>
+            </section>
             <section className="about-section">
                 <h2>
                     Jeg arbejder hver dag på at blive dygtigere og klogere. Min nysgerrighed på verden og mennesker omkring mig sikrer at jeg kan skabe digitale løsninger der skaber mest mulig værdi for de virksomheder jeg udfører opgaver for.
@@ -28,6 +39,7 @@ export default function AboutPage() {
                     Og så elsker jeg at programmere dagen lang for at perfektionere min kode!
                 </h3>
             </section>
+
             <section className="competences">
                 <div>
                     <h2>
@@ -56,15 +68,7 @@ export default function AboutPage() {
 
                 </div>
             </section>
-            <section className="toolbox">
-                <h2>
-                    MY TOOLBOX
-                </h2>
-                <p>
-                    As a multimedia design graduate and web development student, I possess a wide range of skills.
 
-                </p>
-            </section>
 
 
 
