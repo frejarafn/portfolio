@@ -14,7 +14,7 @@ export default function HomePage() {
                     </button>
                 </div >
                 <div className="hero-image">
-                    <ImageSlider imageUrl="/images/full-profile.png" timerDuration={1000} />
+                    <ImageSlider imageUrl="/images/full-profile.png" timerDuration={800} />
 
                 </div>
             </div>

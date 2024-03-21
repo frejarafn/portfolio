@@ -13,7 +13,7 @@ export default function AboutPage() {
                 </div>
                 <div>
                     <div className="slider">
-                        <ImageSlider imageUrl="/images/Profil.jpg" timerDuration={1000} />
+                        <ImageSlider imageUrl="/images/Profil.jpg" timerDuration={800} />
                     </div>
 
                 </div>
@@ -32,12 +32,17 @@ export default function AboutPage() {
                 <Toolbox></Toolbox>
             </section>
             <section className="about-section">
-                <h2>
-                    Jeg arbejder hver dag på at blive dygtigere og klogere. Min nysgerrighed på verden og mennesker omkring mig sikrer at jeg kan skabe digitale løsninger der skaber mest mulig værdi for de virksomheder jeg udfører opgaver for.
-                </h2>
-                <h3>
-                    Og så elsker jeg at programmere dagen lang for at perfektionere min kode!
-                </h3>
+                <img src="/images/Profil.jpg" alt="Freja" />
+                <div>
+                    <h2>
+                        RESPONSIBLE, CREATIVE AND DEDICATED
+                    </h2>
+                    <p>
+                        I am a full-stack developer with a passion for creating beautiful and functional web applications. I have experience in both front-end and back-end development, and I am always eager to learn new technologies. I am a quick learner and a team player, and I am always looking for new challenges.
+                    </p>
+                    <button onClick={() => window.open("/images/Profil.jpg", "_blank")} >DOWNLOAD MY PRAICE PROFILE</button>
+
+                </div>
             </section>
 
             <section className="competences">

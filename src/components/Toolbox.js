@@ -13,12 +13,15 @@ export default function Toolbox() {
             </div>
             <div className="category">
                 <h2>BACKEND</h2>
-                <button>Node.js</button>
-                <button>Express</button>
-                <button>MongoDB</button>
-                <button>MySQL</button>
-                <button>Mongoose</button>
-                <button>PHP</button>
+                <div>
+                    <button>Node.js</button>
+                    <button>Express</button>
+                    <button>MongoDB</button>
+                    <button>MySQL</button>
+                    <button>Mongoose</button>
+                    <button>PHP</button>
+                </div>
+
 
             </div>
             <div className="category">
