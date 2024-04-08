@@ -4,7 +4,7 @@ export default function Footer() {
             <div className="footer-grid">
                 <div className="direct-contact">
                     <h2>Wanna know more?</h2>
-                    <a href="mailto:frejavangilst@gmail.com"><h3>Get in touch</h3></a>
+                    <a className="contact-link" href="mailto:frejavangilst@gmail.com"><h3>Get in touch</h3></a>
                 </div>
                 <div>
                     <h2>CONTACT</h2>
