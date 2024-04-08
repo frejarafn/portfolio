@@ -32,7 +32,7 @@ export default function AboutPage() {
                 <Toolbox></Toolbox>
             </section>
             <section className="about-section">
-                <img src="/images/Profil.jpg" alt="Freja" />
+                <img src="/images/about-me.png" alt="Freja" />
                 <div>
                     <h2>
                         RESPONSIBLE, CREATIVE AND DEDICATED
@@ -63,7 +63,7 @@ export default function AboutPage() {
                     <div>
                         <h4>Backend development</h4>
                         <p>
-                            As a backend developer, I bring a robust skill set to the table with a focus on building and maintaining the server-side of web applications. Proficient in database management, I have hands-on experience working with MongoDB and MySQL, enabling me to design and optimize databases for efficient data storage and retrieval. My expertise extends to server-side scripting languages like Node.js and Python, allowing me to develop scalable and secure backend functionalities.  </p>
+                            As a backend developer, I bring a robust skill set to the table with a focus on building and maintaining the server-side of web applications. Proficient in database management, I have hands-on experience working with MongoDB and MySQL, enabling me to design and optimize databases for efficient data storage and retrieval. My expertise extends to server-side scripting languages like Node.js  allowing me to develop scalable and secure backend functionalities.  </p>
                     </div>
                     <div>
                         <h4>Graphic design</h4>

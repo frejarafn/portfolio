@@ -32,11 +32,11 @@ export default function Nav() {
                 <div className="contact-popup">
                     <div className="popup-content">
                         <h2>CONTACT ME</h2>
-                        <a href="mailto:frejavangilst@gmail.com">frejavangilst@gmail.com</a>
+                        <a className="contact-hover" href="mailto:frejavangilst@gmail.com">frejavangilst@gmail.com</a>
                         <p></p>
-                        <a href="tel:+4542803370">+45 42 80 33 70</a>
+                        <a className="contact-hover" href="tel:+4542803370">+45 42 80 33 70</a>
                         <br></br>
-                        <button onClick={closeContactPopup}>Close</button>
+                        <button className="close-hover" onClick={closeContactPopup}>Close</button>
                     </div>
                 </div>
             )}
