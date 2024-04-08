@@ -38,7 +38,11 @@ export default function AboutPage() {
                         RESPONSIBLE, CREATIVE AND DEDICATED
                     </h2>
                     <p>
-                        I am a web developer with a passion for creating beautiful and functional web applications. I have experience in both front-end and back-end development, and I am always eager to learn new technologies. I am a quick learner and a team player, and I am always looking for new challenges.
+                        When it comes to my work, responsibility is my middle name. I take every project seriously, ensuring it's not just functional but also secure and reliable.
+                        But it's not just about meeting standards for me. I thrive on creativity, always looking for innovative solutions and designs that stand out. From sleek user interfaces to cutting-edge functionalities, I love pushing the boundaries of what's possible.
+                        And dedication? That's what fuels me. I pour my heart and soul into every project, constantly striving for excellence. I stay on top of the latest trends and technologies, always eager to learn and improve.
+
+                        In a nutshell, I'm the web developer you can count on—for responsible, creative, and dedicated solutions that leave a lasting impression.
                     </p>
                     <button onClick={() => window.open("/images/praice-profile.pdf", "_blank")} >DOWNLOAD MY PRAICE PROFILE</button>
 

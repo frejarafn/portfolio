@@ -5,6 +5,9 @@ import AboutPage from './pages/AboutPage';
 import HomePage from './pages/HomePage';
 import Footer from './components/Footer';
 import ProjectsPage from './pages/ProjectsPage';
+import LadyLinkup from './pages/LadyLinkup';
+import Sailmore from './pages/Sailmore';
+import TntBraende from './pages/TntBraende';
 
 function App() {
   return (
@@ -15,6 +18,11 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/projects/ladylinkup" element={<LadyLinkup />} />
+        <Route path="/projects/sailmore" element={<Sailmore />} />
+        <Route path="/projects/tntbraende" element={<TntBraende />} />
+        <Route path="/projects/project4" element={<AboutPage />} />
+
 
 
       </Routes>
