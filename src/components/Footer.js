@@ -21,13 +21,13 @@ export default function Footer() {
                 <div>
                     <h2>SOCIALS</h2>
                     <p>
-                        <a href="https://www.linkedin.com/in/freja-van-gilst">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/freja-van-gilst" target="_blank" rel="noreferrer">LinkedIn</a>
                     </p>
                     <p>
-                        <a href="https://github.com/frejarafn">GitHub</a>
+                        <a href="https://github.com/frejarafn" target="_blank" rel="noreferrer">GitHub</a>
                     </p>
                     <p>
-                        <a href="https://candidate.dk/candidates/65dde4d789ed4180f337ff85">Candidate</a>
+                        <a href="https://candidate.dk/candidates/65dde4d789ed4180f337ff85" target="_blank" rel="noreferrer">Candidate</a>
                     </p>
                 </div>
             </div>

@@ -8,7 +8,7 @@ export default function AboutPage() {
                 <div className="about-text">
                     <h2>WHO AM I?</h2>
                     <p>
-                        I am a full-stack developer with a passion for creating beautiful and functional web applications. I have experience in both front-end and back-end development, and I am always eager to learn new technologies. I am a quick learner and a team player, and I am always looking for new challenges.
+                        I am a web developer with a passion for creating beautiful and functional web applications. I have experience in both front-end and back-end development, and I am always eager to learn new technologies. I am a quick learner and a team player, and I am always looking for new challenges.
                     </p>
                 </div>
                 <div>
@@ -38,9 +38,9 @@ export default function AboutPage() {
                         RESPONSIBLE, CREATIVE AND DEDICATED
                     </h2>
                     <p>
-                        I am a full-stack developer with a passion for creating beautiful and functional web applications. I have experience in both front-end and back-end development, and I am always eager to learn new technologies. I am a quick learner and a team player, and I am always looking for new challenges.
+                        I am a web developer with a passion for creating beautiful and functional web applications. I have experience in both front-end and back-end development, and I am always eager to learn new technologies. I am a quick learner and a team player, and I am always looking for new challenges.
                     </p>
-                    <button onClick={() => window.open("/images/Profil.jpg", "_blank")} >DOWNLOAD MY PRAICE PROFILE</button>
+                    <button onClick={() => window.open("/images/praice-profile.pdf", "_blank")} >DOWNLOAD MY PRAICE PROFILE</button>
 
                 </div>
             </section>
