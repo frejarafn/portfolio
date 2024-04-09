@@ -31,6 +31,7 @@ export default function LadyLinkup() {
                         </p>
                     </div>
                 </div>
+                <img src="/images/lady-profile.png" alt="Lady LinkUp Profile" className="project-image" />
 
             </div>
             <div className="project-about">
@@ -45,8 +46,13 @@ export default function LadyLinkup() {
                 </div>
             </div>
             <div>
-                <img src="/images/ladylinkup-2.png" alt="Lady LinkUp" className="project-image" />
+                <img src="/images/ladylinkup-2.png" alt="Lady LinkUp Event" className="project-image" />
             </div>
+            <button className="back-projects">
+                <a href="/projects">
+                    BACK TO PROJECTS
+                </a>
+            </button>
         </div>
     );
 }

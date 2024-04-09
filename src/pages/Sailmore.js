@@ -3,7 +3,7 @@ export default function Sailmore() {
         <div className="content">
             <div className="project-top">
                 <h1>SAILMORE</h1>
-                <img src="/images/sailmore.png" alt="Lady LinkUp" />
+                <img src="/images/sailmore.png" alt="Sailmore" />
             </div>
             <div className="project-description">
                 <h3>1ST SEMESTER EXAM</h3>
@@ -27,7 +27,7 @@ export default function Sailmore() {
                     </p>
                 </div>
             </div>
-            <img src="/images/sail-style.png" alt="Lady LinkUp" className="project-image" />
+            <img src="/images/sail-style.png" alt="Sailmore styletile" className="project-image" />
             <div className="project-about">
                 <div>
                     <h3>THE PROBLEM</h3>
@@ -38,7 +38,7 @@ export default function Sailmore() {
                     </p>
                 </div>
             </div>
-            <img src="/images/info-arc.png" alt="Lady LinkUp" className="project-image" />
+            <img src="/images/info-arc.png" alt="Sailmore information architecture" className="project-image" />
             <div className="project-about">
                 <div>
                     <h3>THE SOLUTION</h3>
@@ -50,9 +50,14 @@ export default function Sailmore() {
                 </div>
             </div>
             <div className="sailmore-grid">
-                <img src="/images/sail-1.png" alt="Lady LinkUp" className="project-image" />
-                <img src="/images/sail-2.png" alt="Lady LinkUp" className="project-image" />
+                <img src="/images/sail-1.png" alt="Sailmore trips" className="project-image" />
+                <img src="/images/sail-2.png" alt="Sailmore information" className="project-image" />
             </div>
+            <button className="back-projects">
+                <a href="/projects">
+                    BACK TO PROJECTS
+                </a>
+            </button>
         </div>
     );
 }
