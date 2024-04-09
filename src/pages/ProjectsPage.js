@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import PortfolioItem from "../components/PortfolioItem";
 
 export default function ProjectsPage() {
@@ -8,9 +9,15 @@ export default function ProjectsPage() {
                 Here are some of the projects I have worked on. Click on the images to learn more about each project.
             </h2>
             <div className="portfolio-grid">
-                <PortfolioItem imageSrc="/images/ladylinkup-project.png" title="Lady LinkUp" link="/ladylinkup" />
-                <PortfolioItem imageSrc="/images/sailmore-project.png" title="Sailmore" link="/sailmore" />
-                <PortfolioItem imageSrc="/images/tnt-project.png" title="TNT Brænde" link="/tntbraende" />
+                <NavLink to="/ladylinkup">
+                    <PortfolioItem imageSrc="/images/ladylinkup-project.png" title="Lady LinkUp" />
+                </NavLink>
+                <NavLink to="/sailmore">
+                    <PortfolioItem imageSrc="/images/sailmore-project.png" title="Sailmore" />
+                </NavLink>
+                <NavLink to="/tntbraende">
+                    <PortfolioItem imageSrc="/images/tnt-project.png" title="TNT Brænde" />
+                </NavLink>
 
             </div>
         </div>
