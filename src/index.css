@@ -581,7 +581,139 @@ footer {
 
 /* Mobile screen styling */
 @media only screen and (max-width: 767px) {
+body {
+  padding-top: 6em;
+}
+    .navbar {
+      padding: 1rem;
+
+    }
+.logo {
+  height: 3rem;
+}
+.menu-buttons button {
+  font-size: 0.8rem;
+}
+    .hi-there {
+      display: block;
+      margin: 1em 3em;
+    }
+    .hi-there img {
+      width: 100%;
+    }
+    .hi-text {
+      margin-bottom: 1em;
+    }
+
+
+    .about-banner {
+      display: block;
+      margin: 1em 3em;
+    }
+    .about-banner img {
+      width: 80%;
+      height: auto;
+      margin: auto;
+    }
+    .about-banner h2 {
+      font-size: 2rem;
+    }
+    .about-banner p {
+      font-size: 1rem;
+      padding: 0 1em;
+    }
+
+    .toolbox {
+      margin-top: 1em;
+    }
+    .toolbox p {
+      margin: 0 3em;
+    }
+
+    .toolbox-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      margin-top: 2rem;
+      padding: 2rem;
+    }
+    .category {
+      border-right: none;
+    }
+
+    .about-section {
+      display: block;
+    }
+    .about-section img {
+      width: 80%;
+      height: auto;
+      margin: auto;
+      padding: 2em;
+    }
+    .about-section h2 {
+      font-size: 1.5rem;
+    }
+    .about-section div {
+      margin: 1em;
+      padding: 1em;
+      margin-top: 25em;
+    }
+    .about-section div p {
+      font-size: 1rem;
+      padding: 0 1em;
+    }
+
+    .about-section button {
+      margin-top: 1em;
+    }
+.competences {
+      display: block;
+      margin: 1em 3em;
+    }
+    .competences h2 {
+      font-size: 2rem;
+    }
+
+    .projects h1 {
+      font-size: 2rem;
+    }
+    .projects h2 {
+      font-size: 1rem;
+    }
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      margin-top: 2rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 4em;
+      justify-items: center;
+    }
+    .portfolio-item {
+      height: 15em;
+      width: 15em;
+      margin-top: 2em;
+    }
+
+
+
+
+
+
+
+
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+
   
+
 }
 
 /* Tablet screen styling */
