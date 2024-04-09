@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function TntBraende() {
     return (
         <div className="content">
@@ -49,9 +51,10 @@ export default function TntBraende() {
             </div>
             <img src="/images/tnt-logo.png" alt="TNT Logo" className="project-tnt" />
             <button className="back-projects">
-                <a href="/projects">
+                <NavLink to="/projects">
                     BACK TO PROJECTS
-                </a>
+                </NavLink>
+
             </button>
 
         </div>

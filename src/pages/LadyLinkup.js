@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function LadyLinkup() {
     return (
         <div className="content">
@@ -49,9 +51,10 @@ export default function LadyLinkup() {
                 <img src="/images/ladylinkup-2.png" alt="Lady LinkUp Event" className="project-image" />
             </div>
             <button className="back-projects">
-                <a href="/projects">
+                <NavLink to="/projects">
                     BACK TO PROJECTS
-                </a>
+                </NavLink>
+
             </button>
         </div>
     );

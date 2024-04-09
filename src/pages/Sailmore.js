@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function Sailmore() {
     return (
         <div className="content">
@@ -54,9 +56,10 @@ export default function Sailmore() {
                 <img src="/images/sail-2.png" alt="Sailmore information" className="project-image" />
             </div>
             <button className="back-projects">
-                <a href="/projects">
+                <NavLink to="/projects">
                     BACK TO PROJECTS
-                </a>
+                </NavLink>
+
             </button>
         </div>
     );
